@@ -1,0 +1,8 @@
+BuildMatlabPlatformInterfaces:\
+Initial
+	$(WIN_TITLE)
+	$(TITLE)	
+	cd $(ROOTVIEW)\OMD_Matlab\Diagnostics\Interfaces\Platform	
+	IF DEFINED buildResultUUID (start $(ROOTVIEW)\OMD_Builds\JenkinsBuild\BatchFiles\Ant.bat $(ROOTVIEW)\OMD_Builds\JenkinsBuild\MakeFiles\NewActivity.xml $@_$(CONFIG))
+	$(MAKE_IT)
+	$(CLEAN_IT)
