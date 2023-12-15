@@ -1,2 +1,2 @@
-# 28_12_22
-1111111111
+Python Project
+Creating a database server that communicates with clients representing a "water-stations"
